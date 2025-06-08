@@ -10,8 +10,8 @@ const links = [
 ];
 
 const Navbar = () => (
-  <nav className="bg-gray-800 text-white">
-    <ul className="container mx-auto flex flex-col md:flex-row px-4 py-2 gap-2 md:gap-4">
+  <nav>
+    <ul className="flex flex-col md:flex-row gap-2 md:gap-4">
       {links.map(({ to, label }) => (
         <li key={to}>
           <NavLink
